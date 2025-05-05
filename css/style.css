@@ -1,5 +1,5 @@
 * {
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 body {
@@ -18,7 +18,9 @@ body {
 .top {
     color: white;
     background-color: #1F2937;
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 a {
@@ -29,4 +31,24 @@ a {
 .two {
     display: flex;
     gap: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: black solid 3px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
 }
