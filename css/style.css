@@ -27,4 +27,6 @@ a {
 
 .two {
     display: flex;
+    gap: 50px;
 }
+
