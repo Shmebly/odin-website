@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    margin-bottom: 35px;
     padding-left: 100px;
 }
 
@@ -41,6 +42,32 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* max-width: min-content; */
+}
+
+.text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    align-self: flex-start;
+    padding-bottom: 20px;
+}
+
+p{
+    /* display: flex; */
+    /* flex: 1; */
 }
 
 .two {
